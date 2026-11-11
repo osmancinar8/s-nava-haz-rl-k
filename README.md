@@ -16,7 +16,7 @@
 		
 		<header>
 		
-			<h1 align='center' valign='middle'>
+			<h1>
 				LİSTELER(İÇ-İÇE)
 			</h1>
 			
@@ -107,8 +107,12 @@
 		</main>
 		
 		<footer>
-		
+			
+			<hr/>
+			
 			<a href='https://www.hurriyet.com.tr' target='blank'>hürriyete gitmek için tıklayınız</a>
+			
+			<hr/>
 
 		</footer>
 		
@@ -177,11 +181,21 @@
 				
 					
 			</table>
+			
+			<hr/>
 		
 		</aside>
 		
 		<article>
 		
+			<fieldset>
+			
+				<legend>FORM</legend>
+				
+				<h2 align='center' valign='middle'>
+					FORM(TABLO İÇİNDE)
+				</h2>
+				
 			<table border='5' cellpadding='10' cellspacing='5' align='center' valign='middle'>
 			
 				
@@ -205,7 +219,7 @@
 				<tr>
 					<td colspan='3'>
 						Şifrenizi Girin:
-							<input type='paswords' placeholder='Şifreni Gir'>
+							<input type='pasword' placeholder='Şifreni Gir' id='pasword'>
 					</td>
 				</tr>
 				
@@ -261,6 +275,31 @@
 				</tr>
 				
 			</table>
+			
+			</fieldset>
+			
+			<hr/>
+			
+			<fieldset>
+				
+				<legend>VİDEO</legend>
+			 
+			<video controls autoplay muted loop>
+				<source src='konuşma.mp4' type='mp4'/>
+			</video>
+			
+			</fieldset>
+			
+			<fieldset>
+				
+				<legend>SES</legend>
+				
+			<audio controls autoplay>
+				<source src='' type=''/>
+			</audio>
+			
+			</fieldset>
+			
 		
 		</article>
 		
